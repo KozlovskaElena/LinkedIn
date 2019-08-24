@@ -22,6 +22,9 @@ public class HomePage extends BasePage {
 //    @FindBy(css = ".nav__button-secondary")
 //    private WebElement signInNewPageButton;
 
+
+//    test
+
     public void inputLogin(String login) {
         loginField.sendKeys(login);
     }
