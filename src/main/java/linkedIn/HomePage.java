@@ -19,6 +19,12 @@ public class HomePage extends BasePage {
     @FindBy(css = ".sign-in-form__submit-btn")
     private WebElement signInButton;
 
+//    @FindBy(css = ".nav__button-secondary")
+//    private WebElement signInNewPageButton;
+
+
+//    test
+
     public void inputLogin(String login) {
         loginField.sendKeys(login);
     }
@@ -30,4 +36,11 @@ public class HomePage extends BasePage {
     public void clickSigninButton() {
         signInButton.click();
     }
+
+//    public WellcomeBackPage clickSignInNewPageButton() {
+//        signInNewPageButton.click();
+//        return wellcomeBackPage;
+//    }
+
+//    new change
 }
