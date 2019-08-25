@@ -14,6 +14,8 @@ public class LoginTest extends BaseTest {
         homePage.inputLogin(user.getLogin());
         homePage.inputPassword(user.getPassword());
         homePage.clickSigninButton();
-
     }
+
+//    new test1
+
 }
